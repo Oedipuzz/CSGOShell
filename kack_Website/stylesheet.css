@@ -1,0 +1,134 @@
+/* Weltneuheit Style 1.0*/
+/* Autor Kilian*/
+body
+{
+    Background: url(img/site_back.jpg) no-repeat  ;
+    background-position: top;
+    background-position: center;
+    font-family: Verdana;
+    font-size: 8.5pt;
+    
+    
+}
+
+a
+{
+    
+}
+
+a:hover
+{
+    
+}
+
+a img
+{
+    
+}
+
+/* root_site Setup */
+
+#root_site
+{   
+    position: relative;
+    margin-top: 45px;
+    width: 990px;
+    height: auto;
+    background-color: #FFF;
+}
+
+    #head_main_cont
+    {
+        background-color: #CCCCCC;
+        width: 100%;
+        height: 250px;
+    }
+        
+        .header_background
+        {
+            background-position: center;
+            height: 100%;
+            width: 100%;
+            background: url(img/header.png) no-repeat;
+            background-position: center;
+            
+            
+        }
+    
+    #navi_main_cont
+    {
+        background-color: #999999;
+        width: 100%;
+        height: 40px;
+    }
+    
+        .navi_container
+        {
+            background-color: #FF0000;
+            width: 100%;
+            height:40px;   
+        }
+    
+    #content_main_cont
+    {
+        background-color: #3399CC;
+        width: 100%;
+        height: auto;
+        float: left;
+        
+    }
+    
+        .content_left_main
+        {
+            width: 70%;
+            height: 100%;
+            background-color: #6699FF;
+            float: left;
+        }
+        
+            .content_left_table
+            {
+                padding: 0 40px 10px 15px;
+                margin-top: 5px;
+        
+            }
+            
+            .content_left_table_headline
+            {
+                padding-top: 0;
+                font-size: 18pt;
+                font-weight: bold;
+                color: #66CC66;
+            }
+        
+        .content_right_main
+        {
+            width: 30%;
+            height: 100%;
+            background-color:#3399CC;
+            float: right;
+        }
+        
+            .content_right_table
+            {
+                padding: 0 40px 10px 15px;
+                border-left: dotted 2px #333333;
+                margin-top: 10px;
+            }
+            
+            .content_right_table_headline
+            {
+                padding-top: 0;
+                font-size: 18pt;
+                
+                font-weight: bold;
+                color: #66CC66;    
+            }
+    
+    #footer_main_cont
+    {
+        background-color: #333333;
+        width: 100%;
+        height: 150px;
+        float: left;
+    }
