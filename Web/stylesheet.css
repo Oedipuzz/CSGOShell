@@ -1,0 +1,38 @@
+/* CaseCracker Style 1.0*/
+/* Autor Oedipuzz*/
+body
+{
+    Background: url(img/site_back.jpg) no-repeat  ;
+    background-position: top;
+    background-position: center;
+    font-family: Verdana;
+    font-size: 8.5pt;
+
+
+}
+
+a
+{
+
+}
+
+a:hover
+{
+
+}
+
+a img
+{
+
+}
+
+/* root_site Setup */
+
+#header_main
+{
+    position: relative;
+    width: auto;
+    height: 100px;
+    background-color: #333333;
+    
+}
