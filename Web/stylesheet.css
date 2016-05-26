@@ -36,3 +36,14 @@ a img
     background-color: #333333;
     
 }
+
+
+
+.header_logo_main
+{
+    background-position: left;
+    width:100px;
+    height:100px;
+    background: url(/img/logo.png) no-repeat;
+    float: left;
+}

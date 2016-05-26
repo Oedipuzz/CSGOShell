@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=profit\ amountShells\ amountBalls\ multiBlack
+comment0.target=SPIEL(double,\ int,\ int,\ double)
+comment0.text=\r\n\ Profit\:\ Affects\ the\ House\ Edge,\ Enter\ a\ value\ <1\r\n\ \r\n
+comment1.params=
+comment1.target=void\ showSettings()
+comment2.params=newAmountBalls\ newAmountShells
+comment2.target=void\ playerEditSettings(int,\ int)
+comment3.params=betAmount\ betPosition
+comment3.target=double\ placeBet(double,\ int)
+comment4.params=
+comment4.target=int[]\ placeRandomBalls()
+numComments=5
