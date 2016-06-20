@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=AnzahlSpieler\ houseEdge\ amountShells\ amountBalls
+comment0.target=Testus(int,\ double,\ int,\ int)
+comment0.text=\r\n\ Default\ constructor\ for\ test\ class\ Testus\r\n
+comment1.params=anzahl\ maxBet
+comment1.target=double\ winTest(int,\ int)
+numComments=2

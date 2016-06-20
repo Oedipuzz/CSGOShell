@@ -47,7 +47,10 @@ public class SPIEL
         System.out.println("The new Amount of Shells is: "+ amountShells);
     }
     
-    public double placeBet(double betAmount, int betPosition){
+    /**
+     * 
+     * 
+     */public double placeBet(double betAmount, int betPosition){
         double payback=0;
         boolean win=false;
         int[] winPositions=placeRandomBalls();
@@ -57,7 +60,7 @@ public class SPIEL
         }
         if(win==true){
             payback=betAmount*(double)multiShell;
-            moneyBank=moneyBank-(double)(betAmount*multiShell);
+            moneyBank=moneyBank-(double)(betAmount*multiShell)+betAmount;
         }
         else{
             moneyBank=moneyBank+(double)betAmount;
@@ -72,6 +75,9 @@ public class SPIEL
         return payback;
     }
     
+    /**
+     * Places the available Balls (amountBalls) on random Shells
+     */
     public int[] placeRandomBalls(){
         int[] positions= new int[amountBalls];
         for(int i=0; i<amountBalls; i++){
